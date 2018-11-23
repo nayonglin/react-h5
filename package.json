@@ -1,5 +1,5 @@
 {
-  "name": "erciyuan-rank",
+  "name": "react-project",
   "category": "h5",
   "version": "1.0.0",
   "description": "A Vue.js project",
@@ -12,10 +12,11 @@
     "analyz": "set npm_config_report=true && npm run build"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@babel/runtime": "^7.1.2",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
     "react-id-swiper": "^1.5.7"
   },
   "devDependencies": {
