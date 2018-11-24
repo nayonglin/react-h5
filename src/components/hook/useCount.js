@@ -2,13 +2,10 @@ import {useState, useEffect} from 'react';
 
 function useMyCount(number) {
     const [count, setCount] = useState(number);
-    const count = number;
     useEffect(() => {
-        
+
     })
 
-
-    return count;
+    return [count, setCount];
 }
-
 export default useMyCount;
