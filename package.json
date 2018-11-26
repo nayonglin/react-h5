@@ -2,8 +2,8 @@
   "name": "react-project",
   "category": "h5",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "kebin <kekobin@163.com>",
+  "description": "A react.js project",
+  "author": "nayonglin <nayonglin@outlook.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 0.0.0.0",
