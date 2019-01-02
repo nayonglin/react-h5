@@ -2,7 +2,7 @@
   "name": "react-project",
   "category": "h5",
   "version": "1.0.0",
-  "description": "A react.js project",
+  "description": "A react.js h5 project",
   "author": "nayonglin <nayonglin@outlook.com>",
   "private": true,
   "scripts": {
