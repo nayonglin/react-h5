@@ -31,18 +31,11 @@ class App extends Component {
     goLive(item) {  //  onClick={(e) => this.goLive({lTid: list.lTid, lSid: list.lSid, lUid: list.lUid, iRoomId: list.iRoomId})}
         // if (!item || !item.lYYId) return;
         if(window.KiwiJSBridge){
-            const pargam =
-          "live://channelid=" +
-          item.lTid +
-          "&subid=" +
-          item.lSid +
-          "&uid=" +
-          (item.lPid || item.lUid) +
-          "&type=3"; 
-        const url = "yykiwi://openurl?banneraction=" + encodeURIComponent(pargam);
-        HUYASdk.openUrl({
-          url: url
-        });
+          const pargam = "live://channelid=0&subid=0&uid=" + (item.lPid || item.lUid) +"&type=3"; 
+          const url = "yykiwi://openurl?banneraction=" + encodeURIComponent(pargam);
+          HUYASdk.openUrl({
+            url: url
+          });
         } else {
           window.open("https://www.huya.com/" + item.iRoomId);
         }
